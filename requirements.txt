@@ -1,6 +1,11 @@
-# PR 1 — Sound Event Detection Dependencies
+# Goal 1 — Sound Event Detection
 tensorflow>=2.15.0
 tensorflow_hub>=0.16.1
 numpy<2.0.0
 soundfile>=0.12.1
 pydantic>=2.0.0
+
+# Goal 2 — Speaker Reaction Detection
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+Pillow>=10.0.0
